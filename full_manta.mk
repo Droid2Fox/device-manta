@@ -26,8 +26,7 @@ PRODUCT_PACKAGES += \
         LiveWallpapers \
         LiveWallpapersPicker \
         MagicSmokeWallpapers \
-        VisualizationWallpapers \
-        librs_jni
+        VisualizationWallpapers 
 
 PRODUCT_PROPERTY_OVERRIDES := \
         net.dns1=8.8.8.8 \
