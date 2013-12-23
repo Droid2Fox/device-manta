@@ -185,6 +185,10 @@ PRODUCT_PACKAGES += \
     charger \
     charger_res_images
 
+# Gecko
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.moz.has_home_button=0
+
 $(call inherit-product-if-exists, hardware/samsung_slsi/exynos5/exynos5.mk)
 $(call inherit-product-if-exists, vendor/samsung_slsi/exynos5/exynos5-vendor.mk)
 $(call inherit-product-if-exists, vendor/samsung/manta/device-vendor.mk)
